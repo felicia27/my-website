@@ -1,7 +1,36 @@
-body {background: #ffffff; margin: 0; padding: 0;} 
-a {color: #2b2bf6;}           
-#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}           
-#header {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}           
-#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
-#content {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
-#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}     
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+
+  .topnav {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+  }
+
+.topnav a {
+    display: inline-block;  
+    padding: 0px;
+    padding-top: 0px;
+    columns: #000000;; 
+    text-decoration:none;
+    margin-right:40px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+}
+.topnav a:hover { border-bottom:2px solid #A6D6FF;}
+
+#Logo {
+    height: 99px;
+    width: 99px;
+    padding-top: 10px;
+    display: block;
+    text-align: left;
+}
+
+#navright {
+    float:right;
+    margin-top:30px;
+}
