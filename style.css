@@ -5,6 +5,7 @@ html {
     position:fixed;
     overflow: auto;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -15,6 +16,8 @@ body {
   img { 
       max-width: 100%; 
   }
+  
+
 
   .topnav {
     background-color: #FFFFFF;
@@ -63,8 +66,24 @@ body {
     filter: alpha(opacity=75); 
     
   }
+
+#SAP {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+    display: block;
+    width:325px; 
+    height:325px; 
+    position: fixed; 
+    border:1px solid #e3e3e3;
+  }
+
+  #SAP:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=75); 
+    
+  }
  
-  .outer, .inner {
+  .outer, .inner{
     display: block;
 }
 
@@ -76,10 +95,12 @@ body {
 
 .inner {
     /* specify padding, can be changed while remaining fixed width of .outer */
-    padding-top: 10px; 
-    padding-left: 500px;
+    padding-top: 100px; 
+    padding-left: 550px;
 }
+
   
 .imgContainer{
     float:left;
 }
+
